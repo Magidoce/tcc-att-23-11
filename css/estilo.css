@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+h2
+{
+    color: #fff;
+}
+body
+{
+    background-image: url('../images/different-people-doing-volunteer-work.jpg');
+}
+h2
+{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.col
+{   
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing:border-box;
+}
+
+.price-box
+{
+    background: #FFF;
+    color: #555;
+    list-style-type: none;
+    border:1px solid #555;
+    margin: 0;
+    padding: 0 25px;
+    border-radius:var(--border-radius-medium);
+}
+
+.price-box .header
+{
+   border-radius: 0;
+    background-color: rgb(49, 52, 49);
+    color: #FFF;
+    font-size: 25px;
+    
+}
+
+.price-box .header-green
+{
+    background: #4b675d;
+}
+
+.price-box li
+{
+    padding: 10px;
+    border-bottom: 20px solid #FFF;
+    text-align: center;
+}
+
+.btn
+{
+    background-color: #3f5f59;
+    border: none;
+    color:#fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+.planos
+{
+  margin-left: 260px;
+  display: inline-block;
+}
+
+
+@media (max-width:768px)
+{
+    .col
+    {
+    width: 100%;
+    }
+}
