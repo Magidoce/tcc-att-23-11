@@ -10,14 +10,55 @@
 
 .mapa iframe
 {
-    left: 0;
+    border-radius: 10%;
+    float: right;
+    max-height: 25rem;
+    max-width: 40rem;
+    left: 2rem;
     top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position:absolute;
 }
 
 li
 {
     align-items: flex-start;
 }
+
+h3{
+    color: #44525d;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.locais
+{
+    border-radius: 10%;
+    background-color: #44525d;
+    margin-left: 6rem;
+    float: left;
+    padding: 6rem;
+    padding-top: 2rem;
+    max-height: 25rem;
+}
+
+.btnlocale
+{
+    margin: none;
+    background: inherit;
+    border: none;
+
+}
+
+.line
+{
+    color: antiquewhite;
+}
+
+a.localsbtn
+{color: var(--primary-color);}
+
+a.localsbtn:hover
+{color: var(--dark-color);}
